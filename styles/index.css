@@ -21,7 +21,7 @@ body{
 }
 
 .mainContainer{
-    width: 70%;
+    width: 85vw;
     display: flex;
     margin-top: 100px;
     margin-bottom: 200px;
@@ -43,7 +43,7 @@ body{
 }
 .left .imgCon img{
     width: 90%;
-    border-radius: 100%;
+    border-radius: 50%;
 
 }
 .contactInfo{
