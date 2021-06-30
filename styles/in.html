@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insertion</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div>
+<h1>Insertion Sort Algorithm - JavaScript</h1>
+</div>
+
+<br>
+<hr>
+<br>
+
+<div style="margin-top:400px;">
+    <h5>Insertion Sort Algorithm</h5>
+    <h4>JAVASCRIPT</h4>
+</div>
+<script>
+    let arr = 4;
+    function insertionSort(arr) {
+    for (let i = 1; i < arr.length; i++) {
+        for (let j = i-1; j > -1; j--) {
+            if (arr[j + 1] < arr[j]) {
+                [arr[j + 1], arr[j]] = [arr[j], arr[j + 1]];
+                   return arr;
+            }
+        }
+    }
+ 
+}
+</script>
+</body>
+</html>
